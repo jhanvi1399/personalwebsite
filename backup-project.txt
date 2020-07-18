@@ -1,0 +1,211 @@
+INDEX.html
+
+<section class="feature_area p_120">
+  <div class="container-fluid">
+    <h1>Projects</h1>
+    <!-- Project 1 -->
+    <div class="project row">
+      <div class=" column col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        <div class="overwrap">
+          <img class="img-fluid" src="img/Workwiz.jpg" alt="sorry">
+          <div class="wrap">
+          </div>
+        </div>
+      </div>
+
+      <div class="column fb2 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        <h3>Workwiz</h3>
+        <p>Developed while working in DSC, VIT Pune.</p>
+        <div class="carddesign card">
+          <div class="card-body">
+            <p>Workwiz, an android app was in top 63 projects for Build for Digital India Competition. It was a solution to the problem of unemployment targeting 2 types of people.
+              1. The user having smartphone: Such a user can download the Workwiz android application and can either to seek a job or post a job.
+              2. The user not having a smartphone: Such a user can dial a toll-free number and can seek or post a job using the IVRS system.
+               </p>
+          </div>
+        </div>
+        <p>Android Studio &emsp; Java &emsp; JavaScript &emsp; Node.js</p>
+      </div>
+    </div>
+
+    <!-- Project 2 -->
+
+    <div class="project row ">
+      <div class="fb3 col-lg-6 col-md-6">
+        <h3>Influencing Trends for NIPS</h3>
+        <p>Developed as semester project in third year engineering.</p>
+        <div class="carddesign card">
+          <div class="card-body">
+            <p>The objectives of the project was to carry out a review of the papers accepted at NIPS in the 1990-2015 decade,
+              analyze and characterize the topics and trends in technology and identify challenges for
+              the evolution of the area in the near future. </p>
+          </div>
+        </div>
+        <p>NLP &emsp; Jupyter notebook </p>
+      </div>
+
+      <div class="imagepos col-lg-6 col-md-6">
+        <div class="overwrap">
+          <img src="img/Influencing.png" alt="sorry">
+          <div class="wrap">
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Project 3 -->
+
+    <div class="project row">
+      <div class=" column col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        <div class="overwrap">
+          <img class="img-fluid" src="img/msbte.jpg" alt="sorry">
+          <div class="wrap">
+          </div>
+        </div>
+      </div>
+
+      <div class="column fb2 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+        <h3>e-Pocket Education</h3>
+        <p>Developed as a Diploma final year project</p>
+        <div class="carddesign card">
+          <div class="card-body">
+            <p>e-Pocket education, an android application was developed for the website of Maharashtra State Board of Technical Education.
+              The app was developed with a purpose centralize the content of MSBTE website right through tap of one finger,
+              both for the staff and the students of diploma education in Maharashtra.
+               </p>
+          </div>
+        </div>
+        <p>Android Studio &emsp; Java &emsp; JavaScript &emsp; Node.js</p>
+      </div>
+    </div>
+
+
+    </div>
+</section>
+
+STYLE.CSS
+
+.feature_area{
+  padding: 50px;
+
+}
+
+.feature_area h1 {
+  text-transform: uppercase;
+  font-size: 48px;
+  color: #000;
+  text-align: center;
+}
+
+.feature_area .row {
+  display: flex; /* equal height of the children */
+}
+
+.feature_area .col {
+  flex: 1; /* additionally, equal width */
+
+  padding: 1em;
+  border: solid;
+}
+
+
+.feature_area img{
+  border-radius: 12px;
+  height: 100%;
+  width: 100%;
+  display: block;
+
+}
+
+.feature_area h1 {
+  text-transform: uppercase;
+  padding-bottom: 15px;
+  font-size: 48px;
+  color: #000;
+
+}
+
+.feature_area .fb2 p {
+  text-align: right;
+}
+
+.feature_area .fb2 h3 {
+  text-align: right;
+}
+
+.feature_area .overwrap
+{
+    position: inherit;
+    border-radius: 12px;
+
+}
+
+.feature_area .wrap{
+  border-radius: 12px;
+ position: absolute;
+ top: 0 ;
+ left: 0;
+ bottom: 0;
+ right: 0;
+ height: 100%;
+ width: 100%;
+ opacity:1;
+ transition: .5s ease;
+ background: rgba(30, 86, 160, 0.7);
+
+}
+
+.feature_area .overwrap:hover .wrap{
+ opacity:0;
+}
+
+.feature_area .row{
+  margin-top: 10%;
+      margin-bottom: 15%;
+
+}
+
+.feature_area .card-body{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.feature_area .carddesign {
+  background-color: #d6e4f0;
+  border-color: #d6e4f0;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.feature_area .carddesign p{
+  margin-bottom: 0;
+  text-align: justify;
+}
+
+/* .feature_area .fb2{
+  padding-left: 0;
+  padding-top: 0;
+    padding-right: 15px;
+    position: absolute;
+    right: 54.500;
+    left: 45%;
+}
+
+.feature_area .fb3{
+  padding-right: 0px;
+    position: absolute;
+    z-index: 1;
+}
+
+
+
+.feature_area .imagepos{
+
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    left: 45%;
+    right: 54px;
+} */

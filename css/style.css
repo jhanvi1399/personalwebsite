@@ -2723,137 +2723,111 @@ h6 {
 ============================================================================================ */
 /* Feature Area css
 ============================================================================================ */
-.feature_area{
-  padding: 50px;
 
+
+.feature_area {
+
+  padding-top: 7%;
+  padding-bottom: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
-.feature_area h1 {
-  text-transform: uppercase;
-  font-size: 48px;
-  color: #000;
-  text-align: center;
+.feature_area .card {
+  width: auto;
+
+
+  border-radius: 4px;
+  box-shadow: 0 -1px 1px 0 rgba(0, 0, 0, 0.05), 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+  background: #fff;
+  position: relative;
+  overflow: hidden;
 }
-
-.feature_area .row {
-  display: flex; /* equal height of the children */
+.feature_area .card:hover, .card.hover {
+  -webkit-transform: translateY(-4px);
+          transform: translateY(-4px);
+  box-shadow: 0 4px 25px 0 rgba(0, 0, 0, 0.3), 0 0 1px 0 rgba(0, 0, 0, 0.25);
 }
-
-.feature_area .col {
-  flex: 1; /* additionally, equal width */
-
-  padding: 1em;
-  border: solid;
+.feature_area .card:hover .card-content, .card.hover .card-content {
+  box-shadow: inset 0 3px 0 0 #1e56a0;
+  border-color: #1e56a0;
 }
-
-
-.feature_area img{
-  border-radius: 12px;
-  height: 100%;
+.feature_area .card:hover .card-img .overlay, .card.hover .card-img .overlay {
+  background-color: rgba(25, 29, 38, 0.85);
+  -webkit-transition: opacity .2s ease;
+  transition: opacity .2s ease;
+  opacity: 1;
+}
+.feature_area .card-img {
+  position: relative;
+  height: 224px;
   width: 100%;
-  display: block;
-
+  background-color: #fff;
+  -webkit-transition: opacity .2s ease;
+  transition: opacity .2s ease;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
-.feature_area h1 {
-  text-transform: uppercase;
-  padding-bottom: 15px;
-  font-size: 48px;
-  color: #000;
-
+.feature_area .card-img .overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  opacity: 0;
 }
-
-.feature_area .fb2 p {
-  text-align: right;
+.feature_area .card-img .overlay .overlay-content {
+  line-height: 224px;
+  width: 100%;
+  text-align: center;
+  color: #fff;
 }
-
-.feature_area .fb2 h3 {
-  text-align: right;
+.feature_area .card-img .overlay .overlay-content a {
+  color: #fff;
+  padding: 0 2rem;
+  display: inline-block;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  height: 40px;
+  line-height: 40px;
+  border-radius: 20px;
+  cursor: pointer;
+  text-decoration: none;
 }
-
-.feature_area .overwrap
-{
-    position: inherit;
-    border-radius: 12px;
-
+.feature_area .card-img .overlay .overlay-content a:hover, .card-img .overlay .overlay-content a.hover {
+  background: #1e56a0;
+  border-color: #1e56a0;
 }
-
-.feature_area .wrap{
-  border-radius: 12px;
- position: absolute;
- top: 0 ;
- left: 0;
- bottom: 0;
- right: 0;
- height: 100%;
- width: 100%;
- opacity:1;
- transition: .5s ease;
- background: rgba(30, 86, 160, 0.7);
-
+.feature_area .card-content {
+  width: 100%;
+  min-height: 104px;
+  background-color: #fff;
+  border-top: 1px solid #E9E9EB;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  padding: 1rem 2rem;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
 }
-
-.feature_area .overwrap:hover .wrap{
- opacity:0;
+.feature_area .card-content a {
+  text-decoration: none;
+  color: #202927;
 }
-
-.feature_area .row{
-  margin-top: 10%;
-      margin-bottom: 15%;
-
+.feature_area .card-content h2, .card-content a h2 {
+  font-size: 1rem;
+  font-weight: 500;
 }
-
-.feature_area .card-body{
-  padding-top: 10px;
-  padding-bottom: 10px;
+.feature_area .card-content p, .card-content a p {
+  font-size: .8rem;
+  font-weight: 400;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: rgba(32, 41, 28, 0.8);
 }
-
-.feature_area .carddesign {
-  background-color: #d6e4f0;
-  border-color: #d6e4f0;
-  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.feature_area .carddesign p{
-  margin-bottom: 0;
-  text-align: justify;
-}
-
-.feature_area .fb2{
-  padding-left: 0;
-  padding-top: 0;
-    padding-right: 15px;
-    position: absolute;
-    right: 54.500;
-    left: 45%;
-}
-
-.feature_area .fb3{
-  padding-right: 0px;
-    position: absolute;
-    z-index: 1;
-}
-
-
-
-.feature_area .imagepos{
-
-    padding-left: 15px;
-    padding-right: 15px;
-    position: relative;
-    left: 45%;
-    right: 54px;
-}
-
-}
-
-
-
-
-
-
 
 
 /* End Feature Area css
