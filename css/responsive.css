@@ -10,6 +10,26 @@
 		border-radius: 0px;
 	}
 }
+
+/* MOBILE VIEW EDITED BY JHANVI */
+@media (max-width:767px){
+	.home_banner_area .personal_text h3 {
+		font-size: 28px;}
+
+  .welcome_area h1{
+    font-size: 28px;
+  }
+
+  .welcome_area h2{
+    font-size: 0.8rem;
+  }
+
+
+	}
+
+/* MOBILE VIEW EDITED BY JHANVI */
+
+
 @media (max-width:1300px){
 	.testimonials_area .owl-prev, .testimonials_area .owl-next {
 		right: auto;
