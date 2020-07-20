@@ -134,7 +134,7 @@ button:focus {
   margin: 0px auto 75px;
 }
 
-.main_title h2 {
+/* .main_title h2 {
   font-family: "Heebo", sans-serif;
   font-size: 36px;
   color: #222222;
@@ -149,7 +149,7 @@ button:focus {
   line-height: 26px;
   color: #777777;
   margin-bottom: 0px;
-}
+} */
 
 /* End Main Title Area css
 ============================================================================================ */
@@ -3261,7 +3261,7 @@ h6 {
 .welcome_area h1 {
   text-transform: uppercase;
   font-weight: normal;
-  font-size: 48px;
+  font-size: 40px;
   color: #222222;
   text-align: center;
 }
@@ -3397,7 +3397,7 @@ h6 {
 .mytabs_area  h1 {
   text-transform: uppercase;
   font-weight: normal;
-  font-size: 48px;
+  font-size: 40px;
   color: white;
   text-align: center;
 }
@@ -3540,7 +3540,7 @@ h6 {
 ============================================================================================ */
 .feature_area {
   padding-top: 7%;
-  padding-bottom: 10%;
+  padding-bottom: 7%;
   padding-left: 5%;
   padding-right: 5%;
 }
@@ -3548,7 +3548,7 @@ h6 {
 .feature_area h1 {
   text-transform: uppercase;
   font-weight: normal;
-  font-size: 48px;
+  font-size: 40px;
   color: #222222;
   text-align: center;
 }
@@ -3848,7 +3848,7 @@ h6 {
 }
 
 .personal_text h3 {
-  font-size: 48px;
+  font-size: 40px;
   text-transform: uppercase;
   margin-bottom: 15px;
   font-weight: normal;
@@ -3922,6 +3922,24 @@ h6 {
 /*----------------------------------------------------*/
 /* Gallery Area css
 ============================================================================================ */
+.home_gallery_area h1 {
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 40px;
+  color: #222222;
+  text-align: center;
+}
+
+.home_gallery_area h2  {
+  color: #222222;
+  text-align: center;
+  font-size: 1.2rem;
+  padding-bottom: 5%;
+  font-size: 1.3rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+}
+
 .isotope_fillter {
   margin-bottom: 50px;
 }
@@ -3974,9 +3992,11 @@ h6 {
   height: 100%;
   left: 0px;
   top: 0px;
-  background-image: -moz-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
-  background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
-  background-image: -ms-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
+
+  background: #1e56a0; /* Old browsers */
+  background: -moz-linear-gradient(left, #1e56a0 1%, #2989d8 53%, #2989d8 53%, #207cca 100%, #d6e4f0 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #1e56a0 1%,#2989d8 53%,#2989d8 53%,#207cca 100%,#d6e4f0 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #1e56a0 1%,#2989d8 53%,#2989d8 53%,#207cca 100%,#d6e4f0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   position: absolute;
   opacity: 0;
   transition: all 300ms ease;
