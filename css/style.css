@@ -131,7 +131,7 @@ button:focus {
 .main_title {
   text-align: center;
   max-width: 670px;
-  margin: 0px auto 75px;
+  margin: 0px auto 50px;
 }
 
 /* .main_title h2 {
@@ -3922,16 +3922,22 @@ h6 {
 /*----------------------------------------------------*/
 /* Gallery Area css
 ============================================================================================ */
+.home_gallery_area{
+  background-color: #1e56a0;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
 .home_gallery_area h1 {
   text-transform: uppercase;
   font-weight: normal;
   font-size: 40px;
-  color: #222222;
+  color: #fff;
   text-align: center;
 }
 
 .home_gallery_area h2  {
-  color: #222222;
+  color: #fff;
   text-align: center;
   font-size: 1.2rem;
   padding-bottom: 5%;
@@ -4016,15 +4022,20 @@ h6 {
   text-align: center;
 }
 
-.h_gallery_item .g_item_text h4 {
-  color: #222222;
-  font-size: 21px;
+.h_gallery_item .g_item_text h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 1.2rem;
   margin-top: 22px;
-  transition: all 300ms linear 0s;
+  padding: 0;
+  font-size: 1.3rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
 }
 
 .h_gallery_item .g_item_text p {
   margin-bottom: 0px;
+  color: white;
 }
 
 .h_gallery_item:hover .g_img_item:before {
@@ -4084,13 +4095,67 @@ h6 {
   align-self: center;
 }
 
-.test_title h2 {
+/* .test_title h2 {
   color: #222222;
   font-size: 36px;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   margin-bottom: 12px;
+} */
+/* Caraousal item acheivement */
+.testimonials_area .main_title h1 {
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 40px;
+  color: #222222;
+  text-align: center;
 }
+.carousel-item{
+    padding: 0 7%;
+    text-align: center;
+
+}
+
+.testimonials_area .main_title h2  {
+  color: #222222;
+  text-align: center;
+  font-size: 1.2rem;
+  padding-bottom: 0;
+  font-size: 1.3rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+}
+
+.testimonials_area{
+
+}
+
+.testimonials_area .acheive{
+  width:50%;
+  height: 50%;
+  text-align: center;
+}
+
+.carousel-indicators {
+    bottom: -40px;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%231e56a0' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%231e56a0' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.carousel-indicators li{
+    background-color: #222222;
+}
+.carousel-indicators .active{
+    background-color: #1e56a0;
+}
+
+/* Caraousal item acheivement */
 
 .test_title p {
   margin-bottom: 0px;
