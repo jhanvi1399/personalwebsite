@@ -4033,9 +4033,19 @@ h6 {
   padding: 0;
   font-size: 1.3rem;
   font-family: "Roboto", sans-serif;
-  font-weight: normal;
+  font-weight: lighter;
 }
 
+.h_gallery_item .g_item_text a {
+  margin-bottom: 0px;
+  color: white;
+  font-family: 'Roboto';
+  font-weight: 500;
+  text-align: justify;
+}
+.h_gallery_item .g_item_text a:hover {
+color: #d6e4f0;
+}
 .h_gallery_item .g_item_text p {
   margin-bottom: 0px;
   color: white;
