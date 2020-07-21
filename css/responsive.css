@@ -37,6 +37,20 @@
       .feature_area h2{
         font-size: 0.95rem;}
 
+        .home_gallery_area .main_title h1{
+          font-size: 30px;
+        }
+
+        .home_gallery_area .main_title .feature_area h2{
+          font-size: 0.95rem;}
+
+          .testimonials_area .main_title h1{
+            font-size: 30px;
+          }
+
+          .testimonials_area .main_title .feature_area h2{
+            font-size: 0.95rem;}
+
 
 	}
 
@@ -300,13 +314,13 @@
 	}
 	/* Footer Area css
 	============================================================================================ */
-	.footer-bottom{
+	/* .footer-bottom{
 		text-align: center;
 	}
 	.footer-bottom .footer-social {
 		text-align: center;
 		margin-top: 15px;
-	}
+	} */
 	/* End End Footer Area css
 	============================================================================================ */
 	.service_inner .col-lg-3 {
@@ -391,9 +405,26 @@
 	============================================================================================ */
 	/* Footer Area css
 	============================================================================================ */
-	.footer-area {
-		padding: 70px 0px;
-	}
+  .footer_area {
+    background: #1e56a0;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .footer_area h1 {
+
+    font-weight: normal;
+    font-size: 15px;
+    color: #fff;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: lighter;
+  }
+
+  .footer_area i{
+    padding-right: 30px;
+  }
 	/* End End Footer Area css
 	============================================================================================ */
 	.pad_top {
